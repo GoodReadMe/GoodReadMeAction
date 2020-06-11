@@ -1,23 +1,19 @@
-# Hello world docker action
+# GoodReadMeAction
 
-This action prints "Hello World" to the log or "Hello" + the name of a person to greet. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
-
-## Inputs
-
-### `who-to-greet`
-
-**Required** The name of the person to greet. Default `"World"`.
-
-## Outputs
-
-### `time`
-
-The time we greeted you.
+Keep your ReadMe up to date. If you mention version of your library inside your ReadMe. Add this action for keep actual version in the ReadMe.
 
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@master
-with:
-  who-to-greet: 'Mona the Octocat'
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-readme:
+    name: Update readMe
+    runs-on: ubuntu-latest
+    steps:
+    - name: GoodReadMe
+      uses: GoodReadMe/GoodReadMeAction@master
 ```
