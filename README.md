@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: GoodReadMe
-      uses: GoodReadMe/GoodReadMeAction@0.2
+      uses: GoodReadMe/GoodReadMeAction@0.3
 ```
