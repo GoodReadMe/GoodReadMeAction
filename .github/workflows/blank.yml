@@ -1,0 +1,11 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-readme:
+    name: Update readMe
+    runs-on: ubuntu-latest
+    steps:
+    - name: GoodReadMe
+      uses: GoodReadMe/GoodReadMeAction@0.2
