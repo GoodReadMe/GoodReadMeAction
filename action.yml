@@ -2,10 +2,10 @@ name: 'GoodReadMe'
 description: 'Keep your ReadMe up to date'
 author: 'Vova Stelmashchuk <goodreadme@androidstory.dev>'
 inputs:
-  service_url:
+  service_host:
     description: 'Base url to service'
     required: false
-    default: 'http://goodreadme.androidstory.dev/'
+    default: 'http://goodreadme.androidstory.dev'
   client_secret:
     description: 'Client secret'
     required: false
@@ -15,7 +15,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.service_url }}
-    - $({ inputs.client_secret })
+    - $({ inputs.client_host })
 branding:
   color: 'green'
   icon: 'check'
