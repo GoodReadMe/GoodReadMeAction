@@ -14,8 +14,8 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.service_url }}
-    - $({ inputs.client_host })
+    - ${{ inputs.service_host }}
+    - $({ inputs.client_secret })
 branding:
   color: 'green'
   icon: 'check'
