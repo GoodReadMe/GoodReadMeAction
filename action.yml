@@ -15,7 +15,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.service_host }}
-    - $({ inputs.client_secret })
+    - ${{ inputs.client_secret }}
 branding:
   color: 'green'
   icon: 'check'
