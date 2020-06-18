@@ -5,7 +5,7 @@ inputs:
   service_url:
     description: 'Base url to service'
     required: false
-    default: 'https://goodreadme.androidstory.dev/'
+    default: 'http://goodreadme.androidstory.dev/'
   client_secret:
     description: 'Client secret'
     required: false
