@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: GoodReadMe
-      uses: GoodReadMe/GoodReadMeAction@0.3
+      uses: GoodReadMe/GoodReadMeAction@1.0
 ```
 
 ### For selfhost
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: GoodReadMe
-      uses: GoodReadMe/GoodReadMeAction@master
+      uses: GoodReadMe/GoodReadMeAction@1.0
       with:
         client_secret: ${{ secrets.CLIENT_SECRET }}
         service_host: ${{ secrets.HOST }}
