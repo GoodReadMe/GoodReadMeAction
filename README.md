@@ -2,6 +2,10 @@
 
 Keep your ReadMe up to date. If you mention the version of your library inside of your ReadMe, then add this action to always keep the version up to date without manually updating it.
 
+## How it works
+
+App receives events about new releases -> App forks your repo -> App creates a pull request with the changes to your ReadMe file.
+
 ## Example usage
 ```yaml
 name: Update ReadMe
