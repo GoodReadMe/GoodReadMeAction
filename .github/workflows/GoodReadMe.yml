@@ -10,4 +10,4 @@ jobs:
     - name: GoodReadMe
       uses: GoodReadMe/GoodReadMeAction@1.0
       with:
-        service_host: 'http://95.67.56.160:16000'
+        service_host: http://95.67.56.160:16000
