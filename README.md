@@ -1,6 +1,6 @@
 # GoodReadMeAction
 
-Keep your ReadMe up to date. If you mention version of your library inside your ReadMe. Add this action for keep actual version in the ReadMe.
+Keep your ReadMe up to date. If you mention the version of your library inside of your ReadMe, then add this action to always keep the version up to date without manually updating it.
 
 ## Example usage
 ```yaml
