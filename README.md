@@ -51,3 +51,5 @@ jobs:
       merge:
         method: merge
 ```
+
+Action use [GoodReadMeApp](https://github.com/GoodReadMe/GoodReadMeApp)
