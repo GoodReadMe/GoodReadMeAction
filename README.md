@@ -4,6 +4,7 @@ Keep your ReadMe up to date. If you mention version of your library inside your 
 
 ## Example usage
 ```yaml
+name: Update ReadMe
 on:
   release:
     types: [published]
@@ -20,6 +21,7 @@ jobs:
 ### For selfhost
 Add `CLIENT_SECRET` and `HOST` to secrets
 ```yaml
+name: Update ReadMe
 on:
   release:
     types: [published]
