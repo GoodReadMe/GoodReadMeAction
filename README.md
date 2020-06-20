@@ -42,11 +42,6 @@ jobs:
 ```yaml
  - name: Automatic merge GoodReadMeBot
     conditions:
-      - status-success=Check Code Quality
-      - status-success=Run unit tests
-      - status-success=ktlint
-      - status-success=Try build application
-      - base:<Your default branch>
       - author:GoodReadMeBot
     actions:
       merge:
