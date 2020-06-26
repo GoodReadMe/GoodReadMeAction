@@ -25,7 +25,7 @@ jobs:
 ```
 
 ### For selfhost
-[Setup selfhost app instanse](https://github.com/GoodReadMe/GoodReadMeApp)
+[Setup selfhost app instanse](https://github.com/GoodReadMe/GoodReadMeApp#setup-the-app-for-self-host-usage)
 
 Add `CLIENT_SECRET` and `HOST` to secrets
 ```yaml
